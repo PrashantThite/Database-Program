@@ -8,5 +8,10 @@ namespace Database_Project.Model
 {
     class Student
     {
+        public int RollNo { get; set; }
+        public string Name { get; set; }
+        public string Stream { get; set; }
+        public int Percentage { get; set; }
+        
     }
 }
